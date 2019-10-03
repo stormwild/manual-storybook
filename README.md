@@ -160,7 +160,7 @@ An error is show in the output:
 ```bash
 $ npm run storybook
 
-> manual-storybook@1.0.0 storybook /Users/stormwild/Source/storybook/manual-storybook
+> manual-storybook@1.0.0 storybook /path/to/manual-storybook
 > start-storybook
 
 info @storybook/react v5.2.1
@@ -172,7 +172,7 @@ WARN Broken build, fix the error below.
 WARN You may need to refresh the browser.
 
 ERR! Error: => Create a storybook config file in "./.storybook/config.{ext}".
-ERR!     at createPreviewEntry (/Users/stormwild/Source/storybook/manual-storybook/node_modules/@storybook/core/dist/server/preview/entries.js:21:11)
+ERR!     at createPreviewEntry (/path/to/manual-storybook/node_modules/@storybook/core/dist/server/preview/entries.js:21:11)
 ERR!     at process._tickCallback (internal/process/next_tick.js:68:7)
 ERR!     at Function.Module.runMain (internal/modules/cjs/loader.js:834:11)
 ERR!     at startup (internal/bootstrap/node.js:283:19)
